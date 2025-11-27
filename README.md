@@ -14,7 +14,8 @@ The result is a denormalized, wide table ready for advanced analytics, enabling 
 - Weather-crime correlations
 - Demographic factors influencing crime rates
 - Spatial distribution of crime hotspots
-
+## Note: 
+- We used google drive to store the dataset and parquet file. Ideally this has to be a HDFS storage. We have attempted to use HDFS . We could not implement the whole solution using HDFS due to resource constraints. Refer HDFS setup instructions md file for details.
 ## 🎯 Key Objectives
 
 1. **Data Integration**: Combine crime incidents, weather data, and demographic information into a single denormalized dataset
@@ -47,7 +48,7 @@ The result is a denormalized, wide table ready for advanced analytics, enabling 
 ### Prerequisites
 
 - Google Colab environment (or local Spark cluster)
-- Google Drive with data files mounted
+- Google Drive with data files mounted (We used google drive to store the dataset and parquet file. Ideally this has to be a HDFS storage. We have attempted to use HDFS . We could not implement the whole solution using HDFS due to resource constraints. Refer HDFS setup instructions md file for details)
 - Python 3.x
 
 ### Installation
